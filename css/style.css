@@ -126,6 +126,14 @@ a {
     font-weight: lighter;
     font-style: italic;
     color: #1F2937;
+    padding: 100px;
+}
+
+#quote p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: right;
 }
 
 #sign-up {
