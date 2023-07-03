@@ -10,8 +10,16 @@ html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 header {
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
 }
 
 h1 {
@@ -33,6 +41,8 @@ h3 {
 
 ul {
     list-style-type: none;
+    display: flex;
+    gap: 10px;
 }
 
 a {
@@ -43,6 +53,14 @@ a {
 
 #top {
     background-color: #1F2937;
+    display: flex;
+    padding: 100px;
+}
+
+.top-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 .subtext {
@@ -52,7 +70,12 @@ a {
 
 #top button {
     background-color: #3882F6;
+    border: solid #3882F6;
+    border-radius: 5px;
     color: #F9FAF8;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
 }
 
 .img-placeholder {
@@ -60,6 +83,10 @@ a {
     height: 200px;
     background-color: gray;
     color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
 }
 
 #info {
