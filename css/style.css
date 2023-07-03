@@ -46,10 +46,16 @@ ul {
     gap: 10px;
 }
 
-a {
+header a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+button a {
+    text-decoration: none;
+    font-size: inherit;
+    color: inherit;
 }
 
 #top {
@@ -157,6 +163,7 @@ a {
     width: 100px;
     height: 30px;
     color: #F9FAF8;
+    font-weight: bold;
 }
 
 footer {
