@@ -79,3 +79,23 @@ a {
     font-style: italic;
     color: #1F2937;
 }
+
+#sign-up {
+    background-color: #F9FAF8;
+}
+
+.action {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+#sign-up button {
+    background-color: #3882F6;
+    border: solid #F9FAF8;
+    color: #F9FAF8;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
