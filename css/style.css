@@ -1,5 +1,11 @@
 /* Styles for the landing page */
 
+/* Sets margin and padding to 0 to prevent different behaviour in different browsers. */
+* {
+    margin: 0;
+    padding: 0;
+}
+
 html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -8,24 +14,44 @@ header {
     background-color: #1F2937;
 }
 
-body {
-    margin: 0;
+h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
 }
 
 h3 {
     color: #F9FAF8;
     font-size: 24px;
-    margin: 0;
 }
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
 a {
     text-decoration: none;
     font-size: 18px;
+    color: #E5E7EB;
+}
+
+#top {
+    background-color: #1F2937;
+}
+
+.subtext {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+#top button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.img-placeholder {
+    width: 400px;
+    height: 200px;
+    background-color: gray;
     color: #E5E7EB;
 }
