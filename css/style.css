@@ -71,3 +71,11 @@ a {
     height: 100px;
     border: solid #3882F6;
 }
+
+#quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
